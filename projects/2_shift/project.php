@@ -3,7 +3,7 @@
   <p class="text-muted text-uppercase pb-5">
 	  <small class="float-left">Digital / Physical &mdash;<br></a>
 	  UI & UX for a connected and secure data backup</small>
-	  <small class ="float-right">1/4</small>
+	  <small class ="float-right"><?php echo ++$p2 ?></small>
 	</p>
 	
   <p class="col-lg-8 col-md-10 m-md-0 p-md-0 display-4">
@@ -17,15 +17,15 @@ hello, project shift.</span>
   <div class="col-md-10 p-md-0">
 	  
 	  <div class="text-muted text-uppercase pb-5">
-		  <small class="float-left">Digital / Physical &mdash;</small>
-		  <small class ="float-right">2/4</small>
+		  <small class="float-left"><?php echo $project_2 ?> &mdash;</small>
+		  <small class ="float-right"><?php echo ++$p2 ?></small>
 		</div>
 
     <div class="masonry gallery gap-wide">
-      <img class="gap-wide" src="projects/1_contextual/contextual_43.jpg" alt="Chania">
-      <img class="gap-wide" src="projects/1_contextual/contextual_37.jpg" alt="Chania">
-      <img class="gap-wide" src="projects/1_contextual/contextual_25.jpg" alt="Chania">
-      <img class="gap-wide" src="projects/1_contextual/contextual_43.jpg" alt="Chania">
+      <img class="gap-wide" src="projects/1_contextual/3.jpg" alt="Chania">
+      <img class="gap-wide" src="projects/1_contextual/2.jpg" alt="Chania">
+      <img class="gap-wide" src="projects/1_contextual/1.jpg" alt="Chania">
+      <img class="gap-wide" src="projects/1_contextual/3.jpg" alt="Chania">
     </div>
 
   </div>
@@ -35,17 +35,17 @@ hello, project shift.</span>
   <div class="col-md-10 p-0">
 	  
 	  <div class="text-muted text-uppercase pb-5">
-		  <small class="float-left">Digital / Physical &mdash;</small>
-		  <small class ="float-right">3/4</small>
+		  <small class="float-left"><?php echo $project_2 ?> &mdash;</small>
+		  <small class ="float-right"><?php echo ++$p2 ?></small>
 		</div>
 		
     <div class="masonry gallery gap-wide">
 	    <div class="gallery-img gap-wide mt-25">
 		    <p class="text-muted text-small">One line caption is OK.</p>
-		    <img src="projects/1_contextual/contextual_43.jpg" alt="Chania">
+		    <img src="projects/1_contextual/3.jpg" alt="Chania">
 		  </div>
-      <img class="gap-wide" src="projects/1_contextual/contextual_37.jpg" alt="Chania">
-      <img class="gap-wide" src="projects/1_contextual/contextual_43.jpg" alt="Chania">
+      <img class="gap-wide" src="projects/1_contextual/2.jpg" alt="Chania">
+      <img class="gap-wide" src="projects/1_contextual/3.jpg" alt="Chania">
     </div>
     		
   </div>
@@ -55,8 +55,8 @@ hello, project shift.</span>
   <div class="col-md-10 p-0">
 	  
 	  <div class="text-muted text-uppercase pb-5">
-		  <small class="float-left">Digital / Physical &mdash;</small>
-		  <small class ="float-right">4/4</small>
+		  <small class="float-left"><?php echo $project_2 ?> &mdash;</small>
+		  <small class ="float-right"><?php echo ++$p2 ?></small>
 		</div>
 		
 		<h4 class="display-4 pb-5"><span class="text-muted">the core problem:</span><br>

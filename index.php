@@ -27,7 +27,7 @@
 		  <?php include("projects/3_humans/project.php");?>
 		  <?php include("projects/4_transport/project.php");?>
 		  <?php include("projects/5_upcycling/project.php");?>
-		  <?php include("projects/6_contact/contact.php");?>
+		  <?php include("projects/99_contact/contact.php");?>
 		</main>
 		
 	

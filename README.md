@@ -17,7 +17,7 @@ It's a work in progress, but for now it goes as follows:
 4. In `index.php` add the path to the projects in the order you want to display them
 5. In `settings.php` name your projects in the order they are in `index.php`
 
-# settings.php
+# `settings.php`
 Use the `$variables` to set
 
     $company       = "Company Name"
@@ -35,8 +35,8 @@ Use the `$variables` to set
     ...
     $contact       = "Contact"
 
-# index.php
+# `index.php`
 Adjust project order in accordance with the order in settings.php (this may be automated in the future)
 
-# system/css/style.css
+# `system/css/style.css
 Scroll to `.title-bg-img-n` to define the background image for the title spread of a project. By default, we use 0.jpg as background-filename. 

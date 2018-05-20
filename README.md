@@ -1,6 +1,3 @@
-# story
-Portfolio Template for Designers
-
 # settings.php
 Use the `$variables` to set
 

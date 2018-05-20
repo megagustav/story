@@ -22,9 +22,3 @@
   });
 })(jQuery);
 </script>
-
-<script>	
-document.getElementById("project-active").innerHTML = $(".nav .active").find('samp').text();
-
-//	$('.active-class').text($('.nav .active').find('samp').text());
-</script>

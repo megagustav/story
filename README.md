@@ -38,5 +38,5 @@ Use the `$variables` to set
 # `index.php`
 Adjust project order in accordance with the order in settings.php (this may be automated in the future)
 
-# `system/css/style.css
+# `system/css/style.css`
 Scroll to `.title-bg-img-n` to define the background image for the title spread of a project. By default, we use 0.jpg as background-filename. 

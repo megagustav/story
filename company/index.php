@@ -14,25 +14,24 @@
 		<div id="bottom"></div>
 	
 		<!-- Company Name -->
-	  <div class="d-none d-md-block frame-top-company float-right">Portfolio for <?php echo $company; ?></div>
+	  <div class="d-none d-md-block frame-top-company float-right"><?php echo $for; ?></div>
 	
 		<!-- Nav and Toggle -->
 		<?php include("../system/nav.php");?>
 		<a id="nav-toggle" class="position <?php if ($hideSide) echo 'd-none' ?>" aria-label="Toggle Navigation"><span></span><span></span><span></span><span></span></a>
 	
 		<main id="main" class="col-sm-12 m-0 p-0">
-		  <?php include("../projects/0_intro/intro.php");?>
-		  <?php include("../projects/1_contextual/project.php");?>
-		  <?php include("../projects/2_shift/project.php");?>
-		  <?php include("../projects/3_humans/project.php");?>
-		  <?php include("../projects/4_transport/project.php");?>
-		  <?php include("../projects/5_upcycling/project.php");?>
-		  <?php include("../projects/99_contact/contact.php");?>
+		  <?php include($intro_url."/page.php");?>
+		  <?php include($project_1_url."/page.php");?>
+		  <?php include($project_2_url."/page.php");?>
+		  <?php include($project_3_url."/page.php");?>
+		  <?php include($project_4_url."/page.php");?>
+		  <?php include($project_5_url."/page.php");?>
+		  <?php include($contact_url."/page.php");?>
 		</main>
 		
 	
 		<?php include("../system/scripts.php");?>
-		<script src="../system/js/scripts.js"></script>
 		
 	</body>
 	

@@ -21,12 +21,12 @@
 		</div>
 
     <div class="masonry gallery gap-wide">
-      <img class="gap-wide" src="projects/1_contextual/3.jpg" alt="Chania">
-      <img class="gap-wide" src="projects/1_contextual/2.jpg" alt="Chania">
-      <img class="gap-wide" src="projects/1_contextual/1.jpg" alt="Chania">
-      <img class="gap-wide" src="projects/1_contextual/1.jpg" alt="Chania">
-      <img class="gap-wide" src="projects/1_contextual/3.jpg" alt="Chania">
-      <img class="gap-wide" src="projects/1_contextual/2.jpg" alt="Chania">
+      <img class="gap-wide" src="../projects/contextual/3.jpg" alt="Chania">
+      <img class="gap-wide" src="../projects/contextual/2.jpg" alt="Chania">
+      <img class="gap-wide" src="../projects/contextual/1.jpg" alt="Chania">
+      <img class="gap-wide" src="../projects/contextual/1.jpg" alt="Chania">
+      <img class="gap-wide" src="../projects/contextual/3.jpg" alt="Chania">
+      <img class="gap-wide" src="../projects/contextual/2.jpg" alt="Chania">
     </div>
   </div>
 </div>

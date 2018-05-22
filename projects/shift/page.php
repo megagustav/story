@@ -1,4 +1,4 @@
-<div class="spread title title-bg title-bg-img-2" id="<?php echo $project_2_nav ?>">         
+<div class="spread title title-bg title-bg-shift" id="<?php echo $project_2_nav ?>">         
   
   <p class="text-muted text-uppercase pb-5">
 	  <small class="float-left">Digital / Physical &mdash;<br></a>

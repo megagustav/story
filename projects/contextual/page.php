@@ -1,4 +1,4 @@
-<div class="spread title title-bg title-bg-img-1" id="<?php echo $project_1_nav ?>">
+<div class="spread title title-bg title-bg-contextual" id="<?php echo $project_1_nav ?>">
 	  
   	<div class="text-muted text-uppercase pb-5">
 	  	<small class="float-left"><?php echo $project_1 ?> &mdash; </small></a>
@@ -25,10 +25,10 @@
 		</div>
 
     <div class="masonry gallery gap-wide">
-      <img class="gap-wide" src="../projects/1_contextual/3.jpg" alt="Chania">
-      <img class="gap-wide" src="../projects/1_contextual/2.jpg" alt="Chania">
-      <img class="gap-wide" src="../projects/1_contextual/1.jpg" alt="Chania">
-      <img class="gap-wide" src="../projects/1_contextual/3.jpg" alt="Chania">
+      <img class="gap-wide" src="../projects/contextual/3.jpg" alt="Chania">
+      <img class="gap-wide" src="../projects/contextual/2.jpg" alt="Chania">
+      <img class="gap-wide" src="../projects/contextual/1.jpg" alt="Chania">
+      <img class="gap-wide" src="../projects/contextual/3.jpg" alt="Chania">
     </div>
 
   </div>

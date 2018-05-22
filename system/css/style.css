@@ -261,15 +261,15 @@ a:hover {
   background-repeat: no-repeat;
 	}
 
-.title-bg-img-1:before {
-  background: url('projects/1_contextual/0.jpg') center center;
+.title-bg-contextual:before {
+  background: url('../../projects/contextual/0.jpg') center center;
   opacity: 0.1;
 }
 
-.title-bg-img-2, .title-bg-img-2 small {
+.title-bg-shift, .title-bg-shift small {
 	color: #fff;
 	}
-.title-bg-img-2 small {
+.title-bg-shift small {
 	text-shadow: 0px 0px 30px black;
 	}
 	
@@ -282,8 +282,8 @@ p.display-4 span {
 	background-color: #248eff; 
 	}
 
-.title-bg-img-2:before {
-  background: url('projects/2_shift/0.jpg') center center;
+.title-bg-shift:before {
+  background: url('../../projects/shift/0.jpg') center center;
   opacity: 0.8;
 }
 

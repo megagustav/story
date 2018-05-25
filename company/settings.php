@@ -14,18 +14,6 @@ $showNumbers   = True; //Show Numbers before Project Titles
 $hideSide      = True; //Hide Side Nav
 $analytics     = "UA-119678562-1"; //Your Google Analytics code for this company
 
-// Project Titles
-$intro         = "Introduction";
-$project_1     = "Contextual";
-$project_2     = "Digital / Physical";
-$project_3     = "Human Factors";
-$project_4     = "Transportation";
-$project_5     = "Upcycling";
-$project_6     = "";
-$project_7     = "";
-$project_8     = "";
-$contact       = "Contact";
-
 // Project Folder Name
 // $project_1 doesn't have to be the first folder in the /projects directory
 $intro_url     = "../projects/introduction";
@@ -39,7 +27,28 @@ $project_7_url = "";
 $project_8_url = "";
 $contact_url   = "../projects/contact";
 
+// Project Titles
+$intro         = "Introduction";
+$project_1     = "Contextual";
+$project_2     = "Digital / Physical";
+$project_3     = "Human Factors";
+$project_4     = "Transportation";
+$project_5     = "Upcycling";
+$project_6     = "";
+$project_7     = "";
+$project_8     = "";
+$contact       = "Contact";
+
+// CSS Variables
+$txt_highlight = "#248eff";
+$site_border   = "40px";
+
 // leave things below this line alone unless you know what you're doing
+
+
+
+
+
 
 
 
@@ -85,7 +94,7 @@ $project_8_nav = strtolower(str_replace(str_split('\\/:*?"<>|-–— '), '', $pr
 </script>
 
 
-<link rel="stylesheet" href="../system/css/style.css">
+<link rel="stylesheet" href="../system/css/style.php">
 <script src="../system/js/smooth-scroll.min.js"></script>
 <script src="../system/js/gumshoe.min.js"></script>
 <script src="../system/js/anime.min.js"></script>

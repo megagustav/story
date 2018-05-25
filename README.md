@@ -11,11 +11,11 @@ You'll see three folders: `company`, `projects` and `system`.
 `company` is one of many folders you'll use for applications. It contains `settings.php` and `index.php`, where you define company name, which projects from the `projects` folder to display, define project titles, and their order.
 
 It's a work in progress, but for now it goes as follows:
-1. Add folders to `/projects` with project titles. For example `0_intro`, `1_contextual` or `project_1`, `project_2`.
-2. The `.php` file inside the project folder is the project content. 
+1. Add folders to `/projects` with project titles. For example `intro`, `suitcase` or `bikesharing`.
+2. The `page.php` file inside the project folder is the project content.
 3. Add images to the same project folder including background images for title spreads
-4. In `index.php` add the path to the projects in the order you want to display them
-5. In `settings.php` name your projects in the order they are in `index.php`
+4. In `settings.php` define the project folders and, in the same file, name your projects
+5. Also in `settings.php` change the CSS variables like highlight color or `$site_border`.
 
 # `settings.php`
 Use the `$variables` to set
@@ -30,13 +30,15 @@ Use the `$variables` to set
     $hideSide      = True or False
 
     $intro         = "Introduction"
-    $project_1     = "Project 1"
-    $project_2     = "Project 2"
+    $project_1     = "Suitcase"
+    $project_2     = "Bike Sharing New York"
     ...
     $contact       = "Contact"
 
-# `index.php`
-Adjust project order in accordance with the order in settings.php (this may be automated in the future)
+    $intro_url     = "../projects/introduction";
+    $project_1_url = "../projects/suitcase";
+    $project_2_url = "../projects/bikesharing";
+    ...
+    $contact_url     = "../projects/contact";
 
-# `system/css/style.css`
-Scroll to `.title-bg-img-n` to define the background image for the title spread of a project. By default, we use 0.jpg as background-filename. 
+*Make sure the `$x_url` matches the name of the project folder.*

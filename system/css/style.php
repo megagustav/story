@@ -1,3 +1,5 @@
+<?php header("Content-type: text/css; charset: UTF-8"); ?>
+
 #top, #bottom, #left, #right {
 	background: #fff;
 	position: fixed;
@@ -5,29 +7,29 @@
 	}
 	#left, #right {
 		top: 0; bottom: 0;
-		width: 40px;
+		width: <?php echo $site_border ?>;
 		}
 		#left { left: 0; }
 		#right { right: 0; }
-		
+
 	#top, #bottom {
 		left: 0; right: 0;
-		height: 40px;
+		height: <?php echo $site_border ?>;
 		}
 		#top { top: 0; }
 		#bottom { bottom: 0; }
-		
+
 <!--[if lte IE 6]>
 	<style>#top, #bottom, #left, #right { display: none; }</style>
 <![endif]-->
 
-@media 
+@media
 
 /* Fairly small screens including iphones */
 only screen and (max-width: 500px),
 
 /* iPads */
-only screen and (min-device-width: 768px) and (max-device-width: 1024px) 
+only screen and (min-device-width: 768px) and (max-device-width: 1024px)
 
 {
 	#top, #bottom, #left, #right { display: none; }
@@ -35,11 +37,11 @@ only screen and (min-device-width: 768px) and (max-device-width: 1024px)
 
 .frame-top-company {
 	top: 0;
-	right: 44px;
+	right: <?php echo $site_border ?>;
 	z-index: 3;
 	position: fixed;
-	height: 40px;
-	line-height: 40px;
+	height: <?php echo $site_border ?>;
+	line-height: <?php echo $site_border ?>;
 	color:#868e96;
 	font-size: 80%;
 	font-weight: 400;
@@ -247,7 +249,6 @@ a:hover {
   background-repeat: no-repeat;
 	}
 
-
 .title-bg:before {
 	content: "";
   position: absolute;
@@ -261,29 +262,29 @@ a:hover {
   background-repeat: no-repeat;
 	}
 
-.title-bg-contextual:before {
-  background: url('../../projects/contextual/0.jpg') center center;
+.title-bg-<?php echo $project_1_nav ?>:before {
+  background: url('../<?php echo $project_1_url ?>/0.jpg') center center;
   opacity: 0.1;
 }
 
-.title-bg-shift, .title-bg-shift small {
+.title-bg-<?php echo $project_2_nav ?>, .title-bg-<?php echo $project_2_nav ?> small {
 	color: #fff;
 	}
-.title-bg-shift small {
+.title-bg-project_2 small {
 	text-shadow: 0px 0px 30px black;
 	}
-	
-p.display-4 { display: inline; }  
 
-p.display-4 span { 
+p.display-4 { display: inline; }
+
+p.display-4 span {
 	line-height: 1.5em;
-	padding: 0.1em 0; 
-	box-shadow: 0.3em 0 0 #248eff, -0.3em 0 0 #248eff; 
-	background-color: #248eff; 
+	padding: 0.1em 0;
+	box-shadow: 0.3em 0 0 <?php echo $txt_highlight ?>, -0.3em 0 0 <?php echo $txt_highlight ?>;
+	background-color: <?php echo $txt_highlight ?>;
 	}
 
-.title-bg-shift:before {
-  background: url('../../projects/shift/0.jpg') center center;
+.title-bg-<?php echo $project_2_nav ?>:before {
+  background: url('../<?php echo $project_1_url ?>/0.jpg') center center;
   opacity: 0.8;
 }
 
@@ -302,7 +303,7 @@ img.gap-wide {
 .mt-25 {
 	padding-top: 25vh;
 	}
-	
+
 /* Seamless responsive photo grid by Chris Coyier
 	https://css-tricks.com/seamless-responsive-photo-grid/
  */
@@ -310,25 +311,25 @@ img.gap-wide {
 .masonry {
   /* Prevent vertical gaps */
   line-height: 0;
-   
+
   -webkit-column-count: 2;
   -webkit-column-gap:   0px;
   -moz-column-count:    2;
   -moz-column-gap:      0px;
   column-count:         2;
-  column-gap:           0px;  
+  column-gap:           0px;
 }
 
 .masonry.gap-small {
   -webkit-column-gap:   5px;
   -moz-column-gap:      5px;
-  column-gap:           5px;  
+  column-gap:           5px;
 }
 
 .masonry.gap-wide {
   -webkit-column-gap:   25px;
   -moz-column-gap:      25px;
-  column-gap:           25px;  
+  column-gap:           25px;
 }
 
 .masonry img {
@@ -364,21 +365,21 @@ img.gap-wide {
 }
 
 /* SCROLLSPY */
-/* based on spy by luismgonzalves 
+/* based on spy by luismgonzalves
 	 https://github.com/lmgonzalves/spy
 */
 
 .page-header {
 	position:fixed;
 	top:0;
-	left:46px;
+	left:<?php echo $site_border ?>;
 	z-index:5;
 	}
-	
+
 .page-nav {
 	display:inline-block;
 	position:fixed;
-	height:40px;
+	height:<?php echo $site_border ?>;
 	top:0;
 	left:46px;
 	overflow:hidden;
@@ -397,7 +398,7 @@ img.gap-wide {
 	-webkit-transition:0s 0.3s;
 	transition:0s 0.3s;
 	}
-	
+
 .page-nav:before{
   top:0;
   background-image:-webkit-linear-gradient(#fff, rgba(255,255,255,0));
@@ -408,11 +409,11 @@ img.gap-wide {
   background-image:-webkit-linear-gradient(rgba(255,255,255,0), #fff);
   background-image:linear-gradient(rgba(255,255,255,0), #fff)
 }
-	
+
 nav.active-spy {
 	position:relative;
 	width:100%;
-	line-height:40px;
+	line-height:<?php echo $site_border ?>;
 	pointer-events: none;
 	}
 

@@ -12,7 +12,8 @@ You'll see three folders: `company`, `projects` and `system`.
 
 It's a work in progress, but for now it goes as follows:
 1. Add folders to `/projects` with project titles. For example `intro`, `suitcase` or `bikesharing`.
-2. The `page.php` file inside the project folder is the project content.
+2. a) The `page.php` file inside the project folder is the project content.
+2. b) The `spread_n.php` are the individual spreads. Use this if you want to exclude a page of a project for a company  
 3. Add images to the same project folder including background images for title spreads
 4. In `settings.php` define the project folders and, in the same file, name your projects
 5. Also in `settings.php` change the CSS variables like highlight color or `$site_border`.

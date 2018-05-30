@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
-
 	<head>
 		<?php include("settings.php");?>
+		<?php include("../system/header.php");?>
+		<link rel="stylesheet" href="company.css">
 	</head>
 
 	<body data-spy="scroll" data-target="#scroll" data-offset="20">
@@ -18,7 +19,9 @@
 	
 		<!-- Nav and Toggle -->
 		<?php include("../system/nav.php");?>
-		<a id="nav-toggle" class="position <?php if ($hideSide) echo 'd-none' ?>" aria-label="Toggle Navigation"><span></span><span></span><span></span><span></span></a>
+		<a id="nav-toggle" class="position <?php if ($hideSide) echo 'd-none' ?>" aria-label="Toggle Navigation">
+			<span></span><span></span><span></span><span></span>
+		</a>
 	
 		<main id="main" class="col-sm-12 m-0 p-0">
 		  <?php include($intro_url."/page.php");?>
@@ -29,10 +32,8 @@
 		  <?php include($project_5_url."/page.php");?>
 		  <?php include($contact_url."/page.php");?>
 		</main>
-		
 	
-		<?php include("../system/scripts.php");?>
+		<?php include("../system/js/scripts.php");?>
 		
 	</body>
-	
 </html>

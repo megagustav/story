@@ -1,7 +1,7 @@
-<div class="spread title title-bg title-bg-<?php echo $project_1_nav ?>" id="<?php echo $project_1_nav ?>">
+<div class="spread title title-bg title-bg-contextual" id="<?php echo $project_1_nav ?>">
   <div class="text-muted text-uppercase pb-5">
-    <small class="float-left"><?php echo $project_1 ?> &mdash; </small></a>
-    <small class="float-right"><?php echo ++$p1 ?>. Intro</small>
+    <small class="float-left"><?php echo $project_title ?> &mdash; </small></a>
+    <small class="float-right"><?php echo $spread_1 ?></small>
   </div>
 
   <h1>Digital meets Physical</h1>

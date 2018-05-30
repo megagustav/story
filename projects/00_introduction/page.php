@@ -1,3 +1,12 @@
+<?php
+
+// Smart URLs
+// Leave this alone
+$url            = (dirname(__FILE__));
+$trim           = end(explode('html',$url));
+$url            = $trim;
+?>
+
 <div class="spread padding-top-20" id="<?php echo $intro ?>">   
 		 
 	<div class="float-left col-sm-4 p-0">
@@ -6,7 +15,7 @@
   	<span class="d-none d-sm-block text-muted"><?php echo $published; ?></span></p>
   	
   	<div class="d-sm-none d-md-block">
-  		<img src="../projects/introduction/1.jpg" class="img-fluid" alt="Gustav Moorhouse Portrait" width="100%" height="auto">
+  		<img src="<?php echo $url ?>/1.jpg" class="img-fluid" alt="Gustav Moorhouse Portrait" width="100%" height="auto">
   	</div>
   	
 	</div>
@@ -17,7 +26,7 @@
 		<p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr,  sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
 		<p>Best regards,<br>Gustav</p>
 			
-	  	<img src="../projects/introduction/signature.svg" class="img-fluid signature pt-4" alt="Gustav Moorhouse Signature" width="30%" height="auto">
+	  	<img src="<?php echo $url ?>/signature.svg" class="img-fluid signature pt-4" alt="Gustav Moorhouse Signature" width="30%" height="auto">
 
 	</div>
   

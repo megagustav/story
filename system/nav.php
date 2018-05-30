@@ -16,6 +16,8 @@
   </div>
 </header>
 
+
+<!-- Side Nav -->
 <aside class="<?php if ($hideSide) echo 'd-none' ?> col-lg-3 col-md-4 col-sm-6 position-fixed p-0 m-0">
 
   <nav class="nav flex-column nav-pills nav-col" id="scroll" role="tablist" aria-orientation="vertical">

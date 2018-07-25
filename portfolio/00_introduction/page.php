@@ -7,7 +7,7 @@ $trim           = end(explode('html',$url));
 $url            = $trim;
 ?>
 
-<div class="spread padding-top-20" id="<?php echo $intro ?>">   
+<div class="spread" id="<?php echo $spread_list['spread_'.$spread_id]["nav"] ?>">  
 		 
 	<div class="float-left col-sm-4 p-0">
 		

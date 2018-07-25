@@ -3,23 +3,3 @@
 <script src="../system/js/popper.js"></script>
 <script src="../system/js/bootstrap.min.js"></script>
 <script src="../system/js/scripts.js"></script>
-
-<script>
-(function($) {
-  $(function() { // DOM Ready
-
-    // Toggle navigation
-    $('#nav-toggle').click(function() {
-      this.classList.toggle("active");
-      // If sidebar is visible:
-      if ($('body').hasClass('show-nav')) {
-        // Hide sidebar
-        $('body').removeClass('show-nav');
-      } else { // If sidebar is hidden:
-        $('body').addClass('show-nav');
-        // Display sidebar
-      }
-    });
-  });
-})(jQuery);
-</script>

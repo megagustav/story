@@ -1,0 +1,290 @@
+.frame-top-company {
+	top: 0;
+	right: 40px;
+	z-index: 3;
+	position: fixed;
+	height: 40px;
+	line-height: 40px;
+	color:#868e96;
+	font-size: 80%;
+	font-weight: 400;
+	text-transform: uppercase;
+	}
+
+@media screen and (min-width: 770px) {
+  
+  #top, #bottom, #left, #right {
+		background: #fff;
+		position: fixed;
+		z-index: 3;
+	}
+	#left, #right {
+		top: 0; 
+		bottom: 0;
+		width: 40px;
+	}
+	#left { 
+		left: 0; 
+	}
+	#right { 
+		right: 0; 
+	}
+	#top, #bottom {
+		left: 0; 
+		right: 0;
+		height: 40px;
+	}
+	#top { 
+		top: 0; 
+	}
+	#bottom { 
+		bottom: 0; 
+	}  
+	
+	.spread {
+		padding-left: 16.666%;
+	}
+	
+	.page-nav {
+		display:inline-block;
+		position:fixed;
+		height:40px;
+		top:0;
+		left:40px;
+		overflow:hidden;
+		z-index:5;
+	}
+
+}
+
+/* Portfolio Spreads */
+
+.spread {
+	min-height: 100vh;
+	padding-top: 6%;
+	position: relative;
+	z-index: 1;
+}
+
+.spread-text {
+	padding-left: 16.666% !important;
+	padding-top: 6%;
+	position: relative;
+	z-index: 1;
+}
+
+.spread-gallery {
+	position: relative;
+	z-index: 1;
+}
+
+.first-image {
+	padding-top: 120px;
+	}
+
+
+.padding-top-20 {
+	padding-top: 20vh;
+}
+
+.title {
+	background: #f4f4f4;
+	padding-right: 16.666%;
+	margin-bottom: 8.666%;
+}
+.title:before {
+	content: "";
+  position: absolute;
+  z-index: -1;
+  max-width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #f4f4f4;
+  background-size: cover;
+  background-repeat: no-repeat;
+	}
+
+
+.title-bg:before {
+	content: "";
+  position: absolute;
+  z-index: -1;
+  max-width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+	}
+	
+.title-bg-babyfood:before {
+  background: url('https://moor.house/portfolio/babyfood/0.JPG') center center;
+  opacity: 0.8;
+}
+
+.title-bg-contextual:before {
+  background: url('../../portfolio/contextual/0.jpg') center center;
+  opacity: 0.1;
+}
+
+.title-bg-shift:before {
+  background: url('../../portfolio/shift/0.jpg') center center;
+  opacity: 0.8;
+}
+
+.title-bg-shift, .title-bg-shift small {
+	color: #fff;
+	}
+.title-bg-shift small {
+	text-shadow: 0px 0px 30px black;
+	}
+	
+p.display-4 { display: inline; }  
+
+p.display-4 span { 
+	line-height: 1.5em;
+	padding: 0.1em 0; 
+	box-shadow: 0.3em 0 0 #248eff, -0.3em 0 0 #248eff; 
+	background-color: #248eff; 
+	}
+
+.gallery {
+	/*padding-bottom: 75px;*/
+}
+
+img.gap-small {
+	margin-bottom: 5px !important;
+}
+
+img.gap-wide {
+	margin-bottom: 25px;
+}
+
+.mt-25 {
+	padding-top: 25vh;
+	}
+	
+/* Seamless responsive photo grid by Chris Coyier
+	https://css-tricks.com/seamless-responsive-photo-grid/
+ */
+
+.masonry {
+  /* Prevent vertical gaps */
+  line-height: 0;
+   
+  -webkit-column-count: 2;
+  -webkit-column-gap:   0px;
+  -moz-column-count:    2;
+  -moz-column-gap:      0px;
+  column-count:         2;
+  column-gap:           0px;  
+}
+
+.masonry.gap-small {
+  -webkit-column-gap:   5px;
+  -moz-column-gap:      5px;
+  column-gap:           5px;  
+}
+
+.masonry.gap-wide {
+  -webkit-column-gap:   25px;
+  -moz-column-gap:      25px;
+  column-gap:           25px;  
+}
+
+.masonry img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+}
+
+@media (max-width: 1200px) {
+  .masonry {
+  -moz-column-count:    2;
+  -webkit-column-count: 2;
+  column-count:         2;
+  }
+}
+@media (max-width: 1000px) {
+  .masonry {
+  -moz-column-count:    2;
+  -webkit-column-count: 2;
+  column-count:         2;
+  }
+}
+@media (max-width: 800px) {
+	.show-nav main .spread {
+	padding-left: 0%;
+	}
+  .masonry {
+  -moz-column-count:    1;
+  -webkit-column-count: 1;
+  column-count:         1;
+  }
+}
+}
+
+/* SCROLLSPY */
+/* based on spy by luismgonzalves 
+	 https://github.com/lmgonzalves/spy
+*/
+
+.page-header {
+	position:fixed;
+	top:0;
+	left:16px !important;
+	z-index:5;
+}
+	
+.page-nav {
+	display:inline-block;
+	position:fixed;
+	height:40px;
+	top:0;
+	left:16px;
+	overflow:hidden;
+	z-index:5;
+}
+
+.page-nav:before,.page-nav:after {
+	position:absolute;
+	content:"";
+	left:0;
+	width:100%;
+	height:30%;
+	opacity:1;
+	z-index:1;
+	pointer-events:none;
+	-webkit-transition:0s 0.3s;
+	transition:0s 0.3s;
+}
+	
+.page-nav:before{
+  top:0;
+  background-image:-webkit-linear-gradient(#fff, rgba(255,255,255,0));
+  background-image:linear-gradient(#fff, rgba(255,255,255,0))
+}
+.page-nav:after{
+  bottom:0;
+  background-image:-webkit-linear-gradient(rgba(255,255,255,0), #fff);
+  background-image:linear-gradient(rgba(255,255,255,0), #fff)
+}
+	
+nav.active-spy {
+	position:relative;
+	width:100%;
+	line-height:40px;
+	pointer-events: none;
+	}
+
+nav.active-spy a {
+	text-decoration: none;
+	display:block;
+	color:#868e96;
+	font-size: 80%;
+	font-weight: 400;
+	text-transform: uppercase;
+	}

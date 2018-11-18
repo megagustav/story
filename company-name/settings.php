@@ -8,6 +8,8 @@ $last_name     = "Cesar";
 $name          = $first_name.' '.$last_name;
 $title         = $name." for ".$company;
 $description   = "A curated portfolio of recent work prepared for ".$company;
+$portfolio_dl  = "https://www.link.com/portfolio.pdf";
+$cv_dl         = "https://www.link.com/cv-company.pdf";
 
 // _chapters
 // FORMAT: "Chapter Title", "link to chapter", "URL friendly title"

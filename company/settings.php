@@ -2,7 +2,7 @@
 // Settings for Story for
 $company       = "Company Name";
 $greeting      = "Hello Anton";
-$published     = "July 2018";
+$published     = "October 2018";
 
 // Instructions
 $first_name    = "Gustav";
@@ -15,10 +15,9 @@ $description   = $name." — ".$for;
 // FORMAT: "Chapter Title", "link to chapter", "URL friendly title"
 $chapter_list  = array(
     array("Gustav Moorhouse",   "../portfolio/intro/page.php", "intro"),
-    array("Better Baby Food",   "../portfolio/babyfood/page.php", "babyfood"),
-    array("The Art of Mirroring", "../portfolio/mirror/page.php", "mirror"),
-    array("Chapter Four",  "../portfolio/chapter4/page.php", "chapterfour"),
-    array("Chapter Five",  "../portfolio/chapter5/page.php", "chapterfive"),
+    array("Lorem Ipsum Dolor",   "../portfolio/lorem/page.php", "lorem"),
+    array("Dolor Sit Amet", "../portfolio/ipsum/page.php", "ipsum"),
+    array("Contact",  "../portfolio/chapter4/contact.php", "contact"),
 );
 $chapter_count = count($chapter_list);
 ?>

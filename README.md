@@ -18,8 +18,3 @@ It's a work in progress, but for now it goes as follows:
 2. The `page.php` file inside the project folder is the project content. `index.php` allows the project to be visited without being part of a portfolio.
 3. Add images to the same project folder.
 4. In `settings.php` define the project folders
-
-# `settings.php`
-Use the `$variables` to set your name, the company, the date, etc.
-
-*Make sure the URL set in `settings.php` matches the name of the project folder.*

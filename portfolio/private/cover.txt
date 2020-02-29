@@ -1,0 +1,5 @@
+Dear Self,
+<br/><br/>
+This is a temporarily public list (for testing) of private projects.<br/><br/>
+
+These are not available by typing <code>/project_name</code> into the URL field. and can only be called inside a company portfolio.<br/><br/>
